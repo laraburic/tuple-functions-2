@@ -5,7 +5,7 @@ A program which gives you the ability to display and calculate data stored in tu
 
 # How it works:
 
-Simply run tuple_function.py from the program directory. When prompted, input the desired filename (there is a sample file supplied) and choose any of the following options that appear.
+Simply run tuple-function-2.py from the program directory. When prompted, input the desired filename (there is a sample file supplied) and choose any of the following options that appear.
 
 # Getting an error:
 
