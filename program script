@@ -1,1 +1,32 @@
-script
+The attributes of a city are name, latitude, longitude and number of citizens. In the file tuple-functions-2.py the function
+takes a string argument, and creates and returns a tuple containing
+details of the city specified by the string. The string should be assumed to have the format:
+
+Rome 111000 20000 1200000
+
+The items in the tuple will be name, latitude, longitude, and number of citizens. You can
+assume that latitude and longitude are 2D coordinates in KM, not degrees. The tuple should
+contain exactly 4 items. Next, the function will print the details of a city on a single
+output line. It should take a tuple as its argument and print the details in fixed-width fields
+using a layout such as:
+
+Rome n. citizens: 1,200,000
+
+The name will be displayed in a single fixed-width field using the format shown above so
+you will need to create a string containing the name in this format and print it in a fixed- width
+field. You may assume that no name will contain more than 30 characters when displayed in
+this format, the number of citizens will contain at most 8 digits.
+In the main body of the program, the code prompts the user for a filename and
+attempts to open the file whose name is supplied. If the file cannot be opened an error
+message should be output and the program should terminate; otherwise the program should
+read each line from the file and supply it to the player tuple-creation function, storing the
+tuples returned by this function in a list. You may assume that the file contains lines that
+conform to the format described for the argument to the function.
+After the data has been input, the program should display details of all the cities in the list in
+a neat table (using the function already written) then enter a loop in which the user should
+be given the option of requesting the display of (a) full details of (i) the city with a given name
+or (ii) all the cities with a population in a particular range or (b) the cities, if any, within 10Km
+from the coordinates specified by the user. After getting out of the loop, the user should then
+be asked to input 2 cities names, and the program should be able to compute the distance
+between the cities using the information about longitude and latitude. Note: Please assume
+that given names of cities are unique.
